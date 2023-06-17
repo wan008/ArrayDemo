@@ -13,7 +13,8 @@ public class StudentList {
         
         Student s1 = new Student("s1", "Kim");
         
-        Student[] studentList = new Student[10];
+        Student[] studentList = new Student[4];
+        // change 10 --> 4
         
         studentList[0] = s1;
         studentList[1] = new Student("s2", "Ronak");
