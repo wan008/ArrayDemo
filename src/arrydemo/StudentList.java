@@ -13,15 +13,14 @@ public class StudentList {
         
         Student s1 = new Student("s0", "Kim");
         
-        Student[] studentList = new Student[6];
-        // change 10 --> 4
+        Student[] studentList = new Student[5];
+        // change 10 --> 5
         
         studentList[0] = s1;
         studentList[1] = new Student("s1", "Ronak");
         studentList[2] = new Student("s2", "NewName");
         studentList[3] = new Student("s3", "NewName");
         studentList[4] = new Student("s4", "Ronak");
-        studentList[5] = new Student("53", "NewName");
         
         for (int i=0;i < studentList.length - 1; i++ ){
             System.out.println(studentList[i].getsName());
