@@ -12,10 +12,12 @@ public class NewStudent {
     
     String newName;
     String newId;
+    int grade;
 
-    public NewStudent(String newName, String newId) {
+    public NewStudent(String newName, String newId, int grade) {
         this.newName = newName;
         this.newId = newId;
+        this.grade = grade;
     }
     
     
