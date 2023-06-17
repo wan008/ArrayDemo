@@ -11,9 +11,11 @@ package arrydemo;
 public class NewStudent {
     
     String newName;
+    String newId;
 
-    public NewStudent(String newName) {
+    public NewStudent(String newName, String newId) {
         this.newName = newName;
+        this.newId = newId;
     }
     
     
