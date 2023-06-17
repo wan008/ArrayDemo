@@ -12,6 +12,21 @@ public class Student {
     private String sName;
     private String sId;
 
+    public void setAddress(String address) {
+        this.address = address;
+    }
+    private String address;
+
+    public Student(String sName, String sId, String address) {
+        this.sName = sName;
+        this.sId = sId;
+        this.address = address;
+    }
+
+    public String getAddress() {
+        return address;
+    }
+
     
     public Student(String sName, String sId) {
         this.sName = sName;
